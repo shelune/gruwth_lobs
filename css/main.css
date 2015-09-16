@@ -125,12 +125,19 @@ body {
     color: #fafafa;
     position: relative;
     padding-top: 25px;
+    z-index: 99;
+}
+
+.pg-canvas {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
 }
 
 .header {
     width: 80%;
     margin: 0 auto;
-
+    position: relative;
 }
 
 .top-nav {
@@ -163,6 +170,19 @@ body {
 
 .brand-left img {
     width: 287px;
+}
+
+.main-intro {
+    padding-top: 40px;
+}
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 72px;
+    font-weight: normal;
 }
 
 .highlight h2 {
