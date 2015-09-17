@@ -254,9 +254,100 @@ body {
 
 .feature-highlights {
     margin-top: 108px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
+/* Main Section starts */
+
+.title-main {
+    color: #BDBDBF;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 110px 0 190px 0;
+}
+
+.previous-works {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.11), 0px 3px 16px 0px rgba(0, 0, 0, 0.12);
+}
+
+.showcase, .showcase-description {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: row;
+    -webkit-flex: row wrap;
+    -ms-flex: row wrap;
+    flex: row wrap;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.showcase img, .work-description {
+    width: 192px;
+    -webkit-transition: all 0.5s cubic-bezier(0.3, 0.73, 0.3, 0.74) 0s;
+    transition: all 0.5s cubic-bezier(0.3, 0.73, 0.3, 0.74) 0s;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.showcase img:hover {
+
+}
+
+.work-description {
+    border-right: 1px solid #EBEBEB;
+}
+
+.work-title {
+    color: #666;
+    margin: 12px 0 8px;
+    font-size: 14px;
+    border-left: 1px solid #fff;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+}
+
+.work-description {
+    padding: 0 12px;
+}
+
+.work-description > p {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #929395;
+    font-style: italic;
+    margin: 0;
+}
+
+.view {
+    text-align: center;
+    background: #27B7DD none repeat scroll 0% 0%;
+    margin: 35px 0 18px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.24), 0px 3px 16px 0px rgba(0, 0, 0, 0.19);
+}
+
+.view p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.view:hover {
+    background: #28E87D none repeat scroll 0% 0%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.11), 0px 3px 5px rgba(0, 0, 0, 0.17)
+}
+
+/* Main Section ends */
 
 
 
