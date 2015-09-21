@@ -347,6 +347,84 @@ body {
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.11), 0px 3px 5px rgba(0, 0, 0, 0.17)
 }
 
+.learn-inbound {
+    margin-top: 80px;
+}
+
+.funnels {
+    margin-left: 95px;
+    float: left;
+}
+
+.inbound-details {
+    float: left;
+    width: 47%;
+    margin-left: 80px;
+    color: #666;
+    text-align: center;
+}
+
+.inbound-title {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.inbound-content {
+    text-align: left;
+}
+
+.learn-more__inbound {
+    position: relative;
+    background: #27B7DD none repeat scroll 0% 0%;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 40px auto;
+    font-size: 15px;
+    padding: 0px 40px;
+}
+
+.learn-more__inbound p {
+    padding: 0;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hosting-options {
+    margin-top: 85px;
+    width: 100%;
+    background: #41434D none repeat scroll 0% 0%;
+    color: #fff;
+    padding: 50px 0 25px 0;
+}
+
+.hosting-text {
+    width: 45%;
+    margin-left: 25px;
+    float: left;
+}
+
+.hosting-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.hosting-button {
+    position: relative;
+    background: #28E87D none repeat scroll 0% 0%;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 50px 55px;
+    padding: 0px 40px;
+}
+
+.hosting-button p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 /* Main Section ends */
 
 
