@@ -118,6 +118,7 @@ textarea {
 body {
     background: #FEFEFE none repeat scroll 0% 0%;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 .wrapper {
@@ -297,10 +298,6 @@ body {
     transform: scale(1, 1);
 }
 
-.showcase img:hover {
-
-}
-
 .work-description {
     border-right: 1px solid #EBEBEB;
 }
@@ -423,6 +420,99 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+}
+
+.customer-quotes {
+    margin-top: 80px;
+}
+
+.left-quote {
+    width: 45%;
+    float: left;
+    position: relative;
+}
+
+.right-quote {
+    width: 45%;
+    margin-left: 40px;
+    float: left;
+}
+
+.left-quote .quote-content, .right-quote .quote-content {
+    padding: 30px 60px 45px 30px;
+    background: #41434D none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.left-quote .quote-content::before {
+    content: '“';
+    font-size: 100px;
+    line-height: 100px;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.left-quote .quote-content::after {
+    content: "”";
+    font-size: 100px;
+    line-height: 100px;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    right: 15px;
+}
+
+.dialogue-arrow-down {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: #41434D;
+    border-left-color: #41434D;
+    left: 30%;
+    position: absolute;
+    margin-left: 6px;
+}
+
+.left-quote .client-avatar {
+    margin-top: -13px;
+    float: left;
+    margin-right: 40px;
+}
+
+.client-avatar img {
+    width: 162px;
+}
+
+.client-detail {
+    color: #666;
+    position: relative;
+}
+
+.right-quote .client-avatar {
+    float: right;
+}
+
+.right-quote .client-detail {
+    text-align: right;
+}
+
+.right-quote .quote-content::before {
+    content: '“';
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+
+.right-quote .quote-content::after {
+    content: '”';
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    position: absolute;
 }
 
 /* Main Section ends */
