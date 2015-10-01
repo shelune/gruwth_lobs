@@ -78,6 +78,17 @@ $(document).ready(function () {
         backDelay: 700,
         backSpeed: 0
     }); */
+    $(window).scroll(function () {
+        var currentY = window.pageYOffset || document.documentElement.scrollTop,
+            yLimit = 80,
+            target = $('.header');
+        if (currentY > yLimit) {
+            target.addClass('header-shrink');
+        } else {
+            target.removeClass('header-shrink');
+        }
+    });
+
     $('.typed-words').customTyped({strings: ["PARTNERS", "DESIGNERS", "MARKETERS", "DEVELOPERS", "SEO", "HOSTS", "PARTNERS"]});
     setTimeout(function () {
         $('.header-container').particleground({
