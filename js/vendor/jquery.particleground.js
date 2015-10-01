@@ -99,11 +99,14 @@
      * Style the canvas
      */
     function styleCanvas() {
-      canvas.width = element.offsetWidth;
-      canvas.height = element.offsetHeight;
-      ctx.fillStyle = options.dotColor;
-      ctx.strokeStyle = options.lineColor;
-      ctx.lineWidth = options.lineWidth;
+        canvas.width = element.offsetWidth;
+        canvas.height = element.offsetHeight;
+        var gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+        gradient.addColorStop(0, '#28E87D');
+        gradient.addColorStop(1, '#27B7DD');
+        ctx.fillStyle = gradient;
+        ctx.strokeStyle = gradient;
+        ctx.lineWidth = options.lineWidth;
     }
 
     /**

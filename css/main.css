@@ -154,6 +154,8 @@ body {
     position: absolute;
     top: 0px;
     z-index: -1;
+    -webkit-mask-image: -webkit-linear-gradient(#28E87D, #27B7DD);
+    mask-image: linear-gradient(#28E87D, #27B7DD);
 }
 
 .header {
